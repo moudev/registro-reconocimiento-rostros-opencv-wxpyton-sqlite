@@ -1,0 +1,1 @@
+# reconocimiento_facial_wxpython_openCv
