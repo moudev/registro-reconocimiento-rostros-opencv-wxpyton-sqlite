@@ -1,9 +1,9 @@
 ## Registro de usuarios con Sqlite y wxPython
 
-El proyecto consta de realizar un registro de usuarios con wxPython como interfaz gráfica, y Sqlite para registro de información. Como agregado almacenar fotografía del usuario.
+El proyecto consta de realizar un registro de usuarios con [wxPython](https://wxpython.org) como interfaz gráfica, y [Sqlite](https://www.sqlite.org/) para registro de información. Como agregado almacenar fotografía del usuario.
 
 ## Utilizando OpenCV
-Para la toma de la fotografía se hace uso básico de OpenCV para acceder a la webcam y realizar la toma.
+Para la toma de la fotografía se hace uso básico de [OpenCV](https://opencv.org/) para acceder a la webcam y realizar la toma.
 
 ## Detección y reconocimiento de rostros
 Para utilizar mejor lo que es OpenCV y una de sus famosas características se hizo la implementación que pudiera tomar multiples fotografías del usuario, para posteriormente hacer el entrenamiento y pueda reconocerlo. Se creó desde cero la lógica de la aplicación, que consisitió en investigar como usar wxPython junto con OpenCV y pasar imagen de la webcam hacia la interfaz gráfica, así como también la estructura de las carpetas para un mayor orden de las imagenes y posterior procesamiento.
@@ -26,4 +26,4 @@ Para utilizar mejor lo que es OpenCV y una de sus famosas características se hi
 
 
 ### Notas
-Este proyecto únicamente fué desarrollado y testeado en una máquina con bajos recursos (Intel Celeron 1.6HGz, 2GB RAM, 2GB swap), y bajo el S.O GNU/Linux Debian Jessie stable. Es una base para futuros proyecto cuando se disponga de mayor hardware y poder hacer uso del entrenamiento con miles de imagenes, no específicamente para entrenamiento y reconocimiento de rostros. La cantidad de 10 fotografías por usuario no es suficiente para entrenar bien, se requieren de una gran cantidad para que se acerque a tener un resultado decente. Revisar cada uno de los archivos .py en donde tiene con un poco de buena explicación su funcionamiento. Revisa la carpeta de _"/capturas"_ para ver el diseño de la interfaz gráfica y de los procesos en consola.
+Este proyecto únicamente fué desarrollado y testeado en una máquina con bajos recursos (Intel Celeron 1.6HGz, 2GB RAM, 2GB swap), y bajo el S.O _GNU/Linux Debian Jessie stable_. Es una base para futuros proyectos cuando se disponga de mayor hardware y poder hacer uso del entrenamiento con miles de imagenes, no específicamente para entrenamiento y reconocimiento de rostros. La cantidad de 10 fotografías por usuario no es suficiente para entrenar bien, se requieren de una gran cantidad para que se acerque a tener un resultado decente. Revisar cada uno de los archivos .py en donde tiene con un poco de buena explicación su funcionamiento. Revisa la carpeta de _"/capturas"_ para ver el diseño de la interfaz gráfica y de los procesos en consola.
